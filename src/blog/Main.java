@@ -1,6 +1,5 @@
 package blog;
 
-
 import blog.User;
 import blog.UserStorage;
 
@@ -21,8 +20,8 @@ public class Main {
     private static final int ALL_POSTS = 5;
     private static final int EXIT = 0;
 
-    private static final int ADD_POST = 6;
-    private static final int LOGOUT = 7;
+    private static final int ADD_POST = 1;
+    private static final int LOGOUT = 2;
 
     public static void main(String[] args) {
         boolean isRun = true;
@@ -56,7 +55,6 @@ public class Main {
             }
         }
     }
-
 
     private static void register() {
         System.out.println("Գրանցվելու համար մուտքագրել տվյալներ(name,surname,email,password)");
@@ -108,7 +106,6 @@ public class Main {
         postOb.setUser(us);
         postStorage.add(postOb);
         System.out.println("Գրառումը ավելացված է");
-
     }
 
     private static void printCommands1() {

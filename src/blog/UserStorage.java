@@ -1,9 +1,5 @@
 package blog;
 
-//import static blog.Main.us;
-
-import org.w3c.dom.ls.LSOutput;
-
 public class UserStorage {
 
     private User [] users = new User[10];
