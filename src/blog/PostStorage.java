@@ -49,5 +49,4 @@ public class PostStorage{
             System.out.println(posts[i]);
         }
     }
-
 }

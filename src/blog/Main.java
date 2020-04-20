@@ -3,8 +3,8 @@ package blog;
 import blog.User;
 import blog.UserStorage;
 
-import java.util.Date;
 import java.util.Scanner;
+import java.util.Date;
 
 public class Main {
 

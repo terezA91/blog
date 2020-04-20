@@ -14,7 +14,7 @@ public class UserStorage {
 
     private void extend(){
         User [] tmp = new User[users.length+5];
-        System.arraycopy(users, 0, tmp, 0, users.length);
+        System.arraycopy(users,0,tmp,0,users.length);
         users = tmp;
     }
 

@@ -10,6 +10,7 @@ public class Post {
     private Date createdDate;
     private User user;
 
+
     public Post(String title, String text, String category, Date createdDate, User user) {
         this.title = title;
         this.text = text;
@@ -35,9 +36,7 @@ public class Post {
         this.text = text;
     }
 
-    public String getCategory() {
-        return category;
-    }
+    public String getCategory() { return category; }
 
     public void setCategory(String category) {
         this.category = category;
